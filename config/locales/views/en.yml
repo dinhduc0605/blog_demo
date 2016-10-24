@@ -1,0 +1,7 @@
+en:
+  layouts:
+    footer:
+      developer: Developer by Dinh Duc HS
+  shared:
+    error:
+      contain_error: The form contain

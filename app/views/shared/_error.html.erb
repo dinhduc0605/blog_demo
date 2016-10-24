@@ -1,0 +1,12 @@
+<% if object.errors.any? %>
+  <div class="show_error">
+    <div class="alert alert-danger">
+      <%= t(".contain_error") %> <%= pluralize object.errors.count, t(:error) %>
+    </div>
+    <ul>
+      <% object.errors.full_messages.each do |error| %>
+        <li><%= error %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>

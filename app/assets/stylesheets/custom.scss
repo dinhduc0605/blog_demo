@@ -1,0 +1,59 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar {
+  border-radius: 0px;
+}
+
+#logo {
+  font-size: 30px;
+  color: #929292;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+footer {
+  padding: 0px 100px;
+  p {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
+
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
+label {
+	margin: 10px 0px;
+}
+
+#btn_sign_up {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.show_error {
+	color: red;
+}
