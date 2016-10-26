@@ -13,3 +13,5 @@ en:
   sign_up: Sign Up
   login: Login
   error: error
+  profile: Profile
+  logout: Logout

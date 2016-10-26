@@ -2,6 +2,8 @@ en:
   layouts:
     footer:
       developer: Developer by Dinh Duc HS
+    header:
+      users: Users
   shared:
     error:
       contain_error: The form contain
