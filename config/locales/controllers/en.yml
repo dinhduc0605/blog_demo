@@ -1,4 +1,8 @@
 en:
   users:
     create:
-      info: Created successful!
+      info: Sign up successful!
+
+  sessions:
+    create:
+      danger: Invalid email/password!
